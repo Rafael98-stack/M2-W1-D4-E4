@@ -36,7 +36,7 @@ span i:nth-child(2) {
     opacity: 0;
     animation-delay: 1s;
     animation-name: example2;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 
@@ -58,7 +58,8 @@ span i:nth-child(3){
     0%   {background-color:red; left:-100px; top:0px;opacity: 1;}
   
     50% {background-color:red; left:0px; top:0px;opacity: 1;}
-    100% {background-color:red; left:1000px; top:0px;opacity: 1;}
+   
+    100% {background-color:red; left:100px; top:0px;opacity: 1;}
   }
 @keyframes example3 {
     0%   {background-color:red; left:-100px; top:0px;opacity: 1;}
