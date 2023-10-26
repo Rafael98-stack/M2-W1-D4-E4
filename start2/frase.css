@@ -22,34 +22,53 @@ height: 20px;
 right: 0;
 overflow: hidden;
 }
+
 span i:first-child:hover {
 position: absolute;
 animation-name: example;
-animation-duration: 1s;
+animation-duration: 3s;
+opacity: 0;
+}
+
+span i:nth-child(2) {
+    position: absolute;
+    display: ;
+    
+}
+span i:nth-child(2):hover {
+    position: absolute;
+    opacity: 1;
+    animation-delay: 1s;
+    animation-name: example2;
+    animation-duration: 3s;
+}
+
+
+span i:nth-child(3){
+    position: absolute;
+}
+span i:nth-child(3):hover {
+    position: absolute;
+    opacity: 1;
+    
+    animation-delay: 2s;
+    animation-name: example3;
+    animation-duration: 3s;
 }
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+  
+    100% {background-color:red; left:100px; top:0px;}
   }
-/* span i:nth-child(2) {
-    position: absolute;
-  display: none;
-} */
-span i:nth-child(2):hover {
-    position: absolute;
-    z-index: 1;
-animation-delay: 1s;
-animation-name: example;
-animation-duration: 4s;
-}
-
-span i:last-child {
-    position: absolute;
-    z-index: 2;
-    animation-delay: 2s;
-  animation-name: example;
-animation-duration: 4s;
-}
+@keyframes example2 {
+    0%   {background-color:red; left:-100px; top:0px;}
+  
+    50% {background-color:red; left:0px; top:0px;}
+    100% {background-color:red; left:1000px; top:0px;}
+  }
+@keyframes example3 {
+    0%   {background-color:red; left:-100px; top:0px;}
+  
+    50% {background-color:red; left:0px; top:0px;}
+    100% {background-color:red; left:100px; top:0px;}
+  }
