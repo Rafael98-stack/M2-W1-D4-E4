@@ -52,18 +52,18 @@ span i:nth-child(3){
 @keyframes example {
     0%   {background-color:red;left:0px; top:0px;opacity: 1;}
   
-    100% {background-color:red;left:100px; top:0px;opacity: 1;}
+    100% {background-color:red;left:100px; top:0px;opacity: 0;}
   }
 @keyframes example2 {
-    0%   {background-color:red; left:-100px; top:0px;opacity: 1;}
+    0%   {background-color:red; left:-100px; top:0px;opacity: 0;}
   
     50% {background-color:red; left:0px; top:0px;opacity: 1;}
    
-    100% {background-color:red; left:100px; top:0px;opacity: 1;}
+    100% {background-color:red; left:100px; top:0px;opacity: 0;}
   }
 @keyframes example3 {
-    0%   {background-color:red; left:-100px; top:0px;opacity: 1;}
+    0%   {background-color:red; left:-100px; top:0px;opacity: 0;}
   
     50% {background-color:red; left:0px; top:0px;opacity: 1;}
-    100% {background-color:red; left:100px; top:0px;opacity: 1;}
+    100% {background-color:red; left:100px; top:0px;opacity: 0;}
   }
